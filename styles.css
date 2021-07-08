@@ -1,0 +1,96 @@
+/* main content */
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    color:hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+    overflow-x: hidden;
+    font-size: 15px;
+}
+
+p{
+    padding-bottom:40%;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+.row{
+    margin:10% 15%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding:5%;
+}
+
+.sedan .learnbtn{
+    color: hsl(31, 77%, 52%);
+}
+
+.sedan .learnbtn:hover{
+    background-color: hsl(31, 77%, 52%);
+    color:white;
+    border:white solid 1px;
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding:5% ;
+}
+
+.suv .learnbtn{
+    color:hsl(184, 100%, 22%);
+}
+
+.suv .learnbtn:hover{
+    background-color: hsl(184, 100%, 22%);
+    color:white;
+    border:white solid 1px;
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding:5%;
+}
+
+.luxury .learnbtn{
+    color:hsl(179, 100%, 13%);
+}
+
+.luxury .learnbtn:hover{
+    background-color: hsl(179, 100%, 13%);
+    color:white;
+    border:white solid 1px;
+}
+
+.header{
+    font-family: 'Big Shoulders Display', cursive;
+    padding:5% 0 10%;
+}
+
+.learnbtn{
+    background-color: white;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* footer */
+
+.attribution {
+     font-size: 11px; 
+     text-align: center;
+     color: black;
+ }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
+
+ /* for smaller screens */
+ @media (max-width:767px){
+     p{
+        padding-bottom:10%;
+     }
+     .suv,.sedan,.luxury{
+         padding:15%;
+     }
+ }
